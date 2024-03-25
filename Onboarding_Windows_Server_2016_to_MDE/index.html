@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding MDE</title>
+</head>
+<body>
+    <h1> Instructions to onboarding windows Server 2016 to MDE</h1>
+
+    <h3> <ol> 1. Make sure following pre-requisites are met from target server: </ol></h3>
+ 
+       <ol>It's recommended to install the latest available SSU and LCU on the server</ol>
+       <ol>The Servicing Stack Update (SSU) from September 14, 2021 or later must be installed </ol>
+       <ol>The Latest Cumulative Update (LCU) from September 20, 2018 or later must be installed </ol>
+       <ol> Enable the Microsoft Defender Antivirus feature and ensure it's up to date. For more information on enabling Defender Antivirus on Windows Server, see <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/enable-update-mdav-to-latest-ws?view=o365-worldwide#re-enable-microsoft-defender-antivirus-on-windows-server-if-it-was-disabled"> Re-enable Defender Antivirus on Windows Server if it was disabled</a> and <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/enable-update-mdav-to-latest-ws?view=o365-worldwide#re-enable-microsoft-defender-antivirus-on-windows-server-if-it-was-uninstalled"> Re-enable Defender Antivirus on windows Server if it was uninstalled </a></ol>
+       <ol>Download and install the latest platform version using Windows Update. Alternatively, download the update package manually from the <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=KB4052623"> Microsoft Update Catalog</a></ol> <br>
+
+    <h3> <ol> 2. Prepare following 2 files for onboarding and copy them to target server </ol></h3>
+
+       <ol> md4ms.msi</ol>
+       <ol> onboarding script</ol>
+       <ol> <img height="650" width="800" src="image1.png"> </ol><br>
+
+   <h3> <ol> 3. Run md4ws.msi on target server to install Microsoft Defender for Endpoint package</ol>. </h3>
+        
+        <ol> <img height="547" width=" 1529" src="image2.png"> </ol> <br> <br>
+
+
+   <h3> <ol> 4. Run onboarding script to complete the onboarding process. We should be able to see sense service running after this. </ol>
+ 
+   </h3>
+</body>
+</html>
